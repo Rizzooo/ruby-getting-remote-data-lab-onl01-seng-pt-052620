@@ -2,7 +2,7 @@ require 'net/http'
 require 'open-uri'
 require 'json'
 
-Class GetRequester
+class GetRequester
 
   def initialize(url)
     @uri = URI.parse(url)

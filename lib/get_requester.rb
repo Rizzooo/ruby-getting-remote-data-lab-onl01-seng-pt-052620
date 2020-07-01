@@ -15,8 +15,6 @@ Class GetRequester
   
   def parse_json
     results = JSON.parse(self.get_response_body)
-    results.collect do |each|
-      each
   end
   
   results = GetRequester.new

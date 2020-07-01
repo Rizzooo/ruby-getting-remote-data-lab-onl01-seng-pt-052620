@@ -17,6 +17,5 @@ class GetRequester
     results = JSON.parse(self.get_response_body)
   end
   
-  results = GetRequester.new
   puts results
 end

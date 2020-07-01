@@ -4,8 +4,8 @@ require 'json'
 
 class GetRequester
 
-  def initialize(URL)
-    @uri = URI.parse(URL)
+  def initialize(url)
+    @uri = URI.parse(url)
   end
   
   def get_response_body
